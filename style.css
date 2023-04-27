@@ -18,7 +18,7 @@ body{
 
     margin-left: 450px;
 
-    margin-top: 300px;
+    margin-top: 150px;
 
     border-radius: 10px;
 
@@ -90,7 +90,7 @@ input{
 
     width: 200px;
 
-    color: #0d5c63;
+    color: #07383d;
 
     font-weight: bolder;
 
@@ -101,6 +101,8 @@ input{
     font-size: x-large;
 
     margin-top: 25px;
+
+    background-color: chartreuse;
 
 }
 
@@ -114,4 +116,23 @@ input{
 
     text-align: centers;
 
+}
+
+span{
+  
+    margin-left: 650px;
+}
+
+#facebook{
+    color: black;
+    
+}
+#linkedin{
+    color: rgb(187, 187, 230);
+}
+#twitter{
+    color: chartreuse;
+}
+#youtube{
+    color: rgb(224, 235, 224);
 }

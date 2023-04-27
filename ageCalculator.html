@@ -1,19 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Discount-Calculator</title>
-   
-   
-    
+    <title>Age Calculator</title>
 
     <!-- External CSS link -->
 
@@ -22,43 +13,25 @@
  
 
     <!-- Google Font Family link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
     
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+</head>
+<body>
 
     <div class="container">
 
-        <h2> Discount Calculator </h2>
+    <h2>Age Calculator</h2>
 
-        <p>Enter the Bill amount and discount in percentage</p>
+    <form>
+        <label>Select Age</label>
+        <input type="datetime-local"> <br><br>
+        <button id="Calculate">Calculate Age</button> &nbsp;&nbsp;&nbsp;
+        <button id="Reset">Reset</button>
+    </form>
+    
+    <p> Calculated Age ==</p>
 
-        <form>
-
-            <label id="labelBill"> Bill Amount  </label>
-
-            <input type="number"> <br>
-
-            <label> Discount Percentage  </label>
-
-            <input type="number"> <br>
-
-            <button id="calculator"> Calculator </button>
-
-        </form>
-
-        <p id="total"> Total Discount Amount == </p>
-
-    <span> 
+    <span>
         <a href="https://www.facebook.com/login/"></a> &nbsp;&nbsp;&nbsp;
         <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>
         <a href="https://www.linkedin.com/login"></a>&nbsp;&nbsp;&nbsp;
@@ -68,13 +41,8 @@
         <a href="https://www.youtube.com/account"></a>&nbsp;&nbsp;&nbsp;
         <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i>
     </span>
-        
-       
-        
-    </div>
-    
-    
+
+     </div>
 
 </body>
-
 </html>
